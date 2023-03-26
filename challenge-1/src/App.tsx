@@ -6,16 +6,16 @@ function App() {
         <div className="w-60 mx-auto my-auto bg-white rounded-lg ">
           <div className='p-3 container'>
             <img
-              
+              alt="Qr code for front end mentor"
               className='h-auto mx-auto rounded-lg'
               src='images/image-qr-code.png'
               />
           </div>
 
           <div className='container mx-auto'>
-            <p className='text-center text-lg font-bold text-black p-1'>
+            <h1 className='text-center text-lg font-bold text-black p-1'>
               Improve your front-end skills by building projects
-            </p>
+            </h1>
             <p className='text-center text-sm text-gray-400 p-1 pb-5 m-2'>
               Scan the QR code to visit Frontend Mentor and take 
               your coding skills to the next level
