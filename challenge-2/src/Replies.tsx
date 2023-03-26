@@ -1,4 +1,4 @@
-import { CommentComponent } from "./App";
+import { CommentComponent } from "./CommentComponent";
 import { Reply, User } from "./loader/dataLoader";
 
 type ReplyProps = {replies : Reply[], currentUser : User}
@@ -8,8 +8,8 @@ export function Replies(props:ReplyProps) {
         return (<></>);
     
     return (
-        <div className="flex m-3">
-            <div className="bg-gray-400 w-1 rounded-lg"></div>
+        <div className="flex m-3 container">
+            <div className="bg-gray-300 w-1 rounded-lg"></div>
             <div className="ml-5">
                 {props.replies.map(r => {
                     return (<CommentComponent 
